@@ -335,6 +335,12 @@ upgeox() {
       geosite_file="${box_dir}/sing-box/geosite.db"
       geosite_url="https://github.com/MetaCubeX/meta-rules-dat/raw/release/geosite.db"
       ;;
+    xray)
+      geoip_file="${box_dir}/xray/geoip.db"
+      geoip_url="https://github.com/Loyalsoldier/v2ray-rules-dat/raw/release/geoip.dat"
+      geosite_file="${box_dir}/xray/geosite.db"
+      geosite_url="https://github.com/Loyalsoldier/v2ray-rules-dat/raw/release/geosite.dat"
+      ;;
     *)
       geoip_file="${box_dir}/${bin_name}/geoip.dat"
       geoip_url="https://github.com/MetaCubeX/meta-rules-dat/raw/release/geoip-lite.dat"
